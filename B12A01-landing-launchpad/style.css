@@ -26,6 +26,7 @@ body{
     color: #ffffff;
     border-radius: 8px;
     font-weight: 600;
+    text-decoration: none;
 }
 .btn:hover{
     background-color:  #e3e315;
@@ -61,8 +62,24 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 30px ;
-    height: 328px;
-    width: 100%;
+    padding: 60px 30px;
+    background-color: #fff;
+    border-radius: 12px;
+
+}
+.subtitle{
+    margin-bottom:20px ;
+    color:#777;
+}
+.title h2{
+    font-size: 35px;
+    margin-bottom: 17px;
+
+}
+/*image*/
+.webflow-img img{
+    border-radius: 15px;
+    max-width: 400px;
+    box-shadow: 0 15px 15px rgba(224, 7, 7, 0.1);
 
 }
