@@ -84,92 +84,6 @@ body{
     box-shadow: 0 15px 15px rgba(224, 7, 7, 0.1);
 
 }
-=======
-/*Reset*/
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    text-align: center;
-}
-.container{
-    width: 100%;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo{
-    color: #4952FF;
-    font-weight: 800;
-    font-size: 24px;
-}
-/*buttons*/
-.btn{
-    padding: 10px 20px;
-    border: none;
-    background-color: #4E47FF;
-    color: #ffffff;
-    border-radius: 8px;
-    font-weight: 600;
-    text-decoration: none;
-}
-.btn:hover{
-    background-color:  #e3e315;
-}
-.signup-btn{
-    font-size: 14px;
-}
-.focus-btn{
-    margin-top: 40px;
-    font-size: 16px;
-
-}
-.banner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-   
-}
-.headline{
-    font-size: 36px;
-    font-weight: bold;
-    color:#252432;
-    line-height: 1.4;
-
-}
-.header{
-    background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
-    width: 100%;
-    height: 698px;
-}
-.action-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 30px;
-    background-color: #fff;
-    border-radius: 12px;
-
-}
-.subtitle{
-    margin-bottom:20px ;
-    color:#777;
-}
-.title h2{
-    font-size: 35px;
-    margin-bottom: 17px;
-
-}
-/*image*/
-.webflow-img img{
-    border-radius: 15px;
-    max-width: 400px;
-    box-shadow: 0 15px 15px rgba(224, 7, 7, 0.1);
-
-}
 /*stats section*/
 .stats-section {
   margin-top: 60px;
@@ -334,5 +248,3 @@ border-radius: 20px;
 .footer-links a:hover {
   color: #4e4eff;
 }
-
->>>>>>> 76a8225 (this is others commit)
